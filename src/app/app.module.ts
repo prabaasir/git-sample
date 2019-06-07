@@ -4,11 +4,13 @@ import { NgxPaginationModule } from 'ngx-pagination';
 
 import { AppComponent } from './app.component';
 import { LoginComponent } from './login/login.component';
+import { MpcComponent } from './mpc/mpc.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    LoginComponent
+    LoginComponent,
+    MpcComponent
   ],
   imports: [
     BrowserModule,
